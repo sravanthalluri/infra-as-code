@@ -68,7 +68,7 @@ resource "google_compute_instance" "vm" {
   }
 
   metadata = {
-    ssh-keys = ssh-keys = "sravanth:${var.public_key}"
+    ssh-keys = "sravanth:${var.public_key}"
   }
 
   tags = ["ssh"]
