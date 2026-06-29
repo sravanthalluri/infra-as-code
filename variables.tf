@@ -40,6 +40,6 @@ variable "ssh_user" {
 }
 
 variable "public_key_path" {
-  description = "Path to your SSH public key"
+  description = "SSH public key"
   type        = string
 }
