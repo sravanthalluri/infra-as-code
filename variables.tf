@@ -43,3 +43,28 @@ variable "public_key" {
   description = "SSH public key for VM access"
   type        = string
 }
+
+variable "TFC_GCP_RUN_SERVICE_ACCOUNT_EMAIL" {
+  description = "Service account email"
+  type        = string
+}
+
+variable "TFC_GCP_PROVIDER_AUTH" {
+  description = "TFC_GCP_PROVIDER_AUTH"
+  type        = string
+}
+
+variable "TFC_GCP_PROJECT_NUMBER" {
+  description = "TFC_GCP_PROVIDER_AUTH"
+  type        = string
+}
+
+variable "TFC_GCP_WORKLOAD_POOL_ID" {
+  description = "TFC_GCP_PROVIDER_AUTH"
+  type        = string
+}
+
+variable "TFC_GCP_WORKLOAD_PROVIDER_ID" {
+  description = "TFC_GCP_PROVIDER_AUTH"
+  type        = string
+}
