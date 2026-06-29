@@ -39,7 +39,3 @@ variable "ssh_user" {
   default     = "sravanth-ssh-key"
 }
 
-variable "public_key_path" {
-  description = "SSH public key"
-  type        = string
-}
