@@ -39,3 +39,7 @@ variable "ssh_user" {
   default     = "sravanth-ssh-key"
 }
 
+variable "public_key" {
+  description = "SSH public key for VM access"
+  type        = string
+}
